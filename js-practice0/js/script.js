@@ -1,9 +1,9 @@
-var dis=prompt("enter dis");
+var distance=prompt("enter distance");
 var time=prompt("enter time");
 var speed;
-	dis=parseInt(dis);
-	time=parseInt(time);
-	var speed=dis/time;
+	distance=parseInt(distance);
+	time=(time*60);
+	speed=((distance/time)*(18/5));
 	alert(speed); 
 
 
